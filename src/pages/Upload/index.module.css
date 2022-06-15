@@ -1,4 +1,42 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
 .header {
   height: 60px;
+  width: 100%;
   background-color: red;
+  position: fixed;
+}
+.footer {
+  height: 60px;
+  background-color: red;
+}
+.inputContainer {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 10;
+  border: 1px dashed #ccc;
+}
+.imgList {
+  width: 500px;
+  height: 800px;
+  background-color: red;
+}
+.fileInput {
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  opacity: 0;
+}
+.tips {
+  width: 100%;
+  height: 200px;
+  /* background-color: yellow; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
